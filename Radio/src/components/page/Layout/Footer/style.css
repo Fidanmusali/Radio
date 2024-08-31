@@ -1,0 +1,121 @@
+.footer{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.last p{
+    color: white;
+    font-size: 20px;
+}
+
+.footer-logo img{
+width: 10rem;
+}
+
+.social-media{
+    display: flex;
+    gap: 3rem;
+    font-size: 1.3rem;
+}
+
+.sc-a{
+    border: 1px solid white;
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border-radius: 15px;
+  
+}
+
+
+
+@media (max-width: 768px) {
+    .footer{
+        background-color: black;
+        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 4rem;
+        padding-bottom: 2rem;
+    }
+    
+    .last p{
+        color: white;
+        font-size: 20px;
+        margin-top: 5rem;
+    }
+    
+    .footer-logo img{
+    width: 10rem;
+    }
+    
+    .social-media{
+        display: flex;
+        gap: 3rem;
+        margin-top: 5rem;
+
+        font-size: 1.3rem;
+    }
+    
+    .sc-a{
+        border: 1px solid white;
+        color: black;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+        border-radius: 15px;
+      
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .footer{
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 4rem;
+        padding-bottom: 2rem;
+    }
+    
+    .last p{
+        color: white;
+        font-size: 18px;
+    }
+    
+    .footer-logo img{
+    width: 8rem;
+    }
+    
+    .social-media{
+        display: flex;
+        gap: 3rem;
+        font-size: 1.2rem;
+    }
+    
+    .sc-a{
+        border: 1px solid white;
+        color: black;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+        border-radius: 15px;
+      
+    }
+}
+
+
+

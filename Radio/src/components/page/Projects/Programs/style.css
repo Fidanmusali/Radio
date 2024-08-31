@@ -1,0 +1,133 @@
+.proj-programs {
+    background-image: url(../../../../../public/img/project.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50rem;
+    color: white;
+}
+
+.proj-programs h2 {
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.programGrp {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.program1 h3 {
+    margin-bottom: 2rem;
+}
+
+
+.rublic h3,
+.morning-broadcast h3 {
+    margin-bottom: 1rem;
+}
+
+.program1,
+.morning-broadcast,
+.rublic {
+    width: 40rem;
+    padding: 2rem;
+    font-size: 21px;
+    line-height: 2rem;
+    background-color: var(--main);
+    border-radius: 15px;
+    opacity: 0.8;
+}
+
+.morningBroad-rubric {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+
+@media (max-width: 768px) {
+    .proj-programs {
+        height: 65rem;
+    }
+    .proj-programs h2 {
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+        font-size: 2rem;
+    }
+    .programGrp {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .program1,
+    .morning-broadcast,
+    .rublic {
+        width: 24rem;
+        font-size: 18px;
+    }
+
+    .morningBroad-rubric {
+        gap: 2rem;
+    }
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .proj-programs {
+        background-image: url(../../../../../public/img/project.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 50rem;
+        color: white;
+    }
+    
+    .proj-programs h2 {
+        padding-top: 3rem;
+        padding-bottom: 5rem;
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .programGrp {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .program1 h3 {
+        margin-bottom: 2rem;
+    }
+    
+    
+    .rublic h3,
+    .morning-broadcast h3 {
+        margin-bottom: 1rem;
+    
+    }
+    .morning-broadcast,
+    .rublic{
+        width: 20rem;
+
+    }
+    .program1  {
+   
+        /* border: 1px solid; */
+        width: 25rem;
+        padding: 2rem;
+        font-size: 21px;
+        line-height: 2rem;
+        background-color: var(--main);
+        border-radius: 15px;
+        opacity: 0.8;
+    }
+    
+    .morningBroad-rubric {
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+    }
+    
+}

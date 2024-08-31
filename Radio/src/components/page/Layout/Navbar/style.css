@@ -1,0 +1,99 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--main);
+    height: 5rem;
+    padding-inline: 3rem;
+}
+
+
+.navBar {
+    display: flex;
+    font-size: 22px;
+    gap: 5rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.navBar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.navBar a.active {
+    border-bottom: 2px solid white;
+}
+
+.navbar-icon {
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+.lang-switch {
+    font-size: 1rem;
+}
+
+
+@media (max-width: 768px) {
+    .navBar {
+        position: absolute;
+        top: 4rem;
+        right: 0;
+        flex-direction: column;
+        background-color: var(--main);
+        width: 100%;
+        height: 100vh;
+        transform: translateX(100%);
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        z-index: 9;
+        padding-bottom: 6rem;
+     
+}
+
+    .navBar.active {
+        transform: translateX(0);
+    }
+
+    .navbar-icon {
+        display: block;
+    }
+
+    .lang-switch {
+        /* position: absolute; */
+        top: 1rem;
+        right: 1rem;
+    }
+
+    .nav {
+        padding-inline: 0rem;
+    }
+
+    /*  */
+    
+
+.divNavbar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: var(--main);
+    z-index: 9;
+    height: 5rem;
+    padding-inline: 1rem;
+}
+
+
+.navBar {
+    display: flex;
+    font-size: 22px;
+    gap: 5rem;
+    transition: transform 0.3s ease-in-out;
+}
+}
