@@ -1,3 +1,243 @@
-.contact{
-    /* background-image: url(../../../../public/img/contact.png); */
+.contact {
+    color: white;
+    background-image: url(../../../../public/img/contact.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
 }
+.contact h2{
+    text-align: center;
+    font-size: 37px;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+
+}
+
+.contactGrp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    font-size: 23px;
+    padding-bottom: 10rem;
+}
+
+.contact-social-media {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    /* border: 1px solid; */
+    width: 29rem;
+    padding: 2rem;
+    border-radius: 20px;
+    opacity: 0.89;
+    background-color: var(--main);
+}
+
+.phone-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4.5rem;
+    /* align-items: center; */
+
+}
+
+.adress {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    width: 30rem;
+    padding: 2rem;
+    border-radius: 20px;
+    background-color: var(--main);
+    opacity: 0.89;
+}
+
+.csm-a {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    color: white;
+    gap: 2rem;
+
+}
+
+.sm-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 25px;
+    font-size: 1.3rem;
+    color: var(--main);
+    background-color: white;
+}
+
+@media (max-width: 768px) {
+    .contact {
+        color: white;
+        background-image: url(../../../../public/img/contact.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover;
+    }
+    .contact h2{
+        text-align: center;
+        font-size: 37px;
+        padding-top: 3rem;
+        padding-bottom: 5rem;
+    
+    }
+    
+    .contactGrp {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 6rem;
+        font-size: 18px;
+        padding-bottom: 10rem;
+    }
+    
+    .contact-social-media {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        /* border: 1px solid; */
+        width: 22rem;
+        padding: 2rem;
+        border-radius: 20px;
+        opacity: 0.89;
+        background-color: var(--main);
+    }
+    
+    .phone-contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 3rem;
+        /* align-items: center; */
+    
+    }
+    
+    .adress {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 5rem;
+        width: 22rem;
+        padding: 2rem;
+        border-radius: 20px;
+        background-color: var(--main);
+        opacity: 0.89;
+    }
+    
+    .csm-a {
+        display: flex;
+        text-decoration: none;
+        align-items: center;
+        color: white;
+        gap: 2rem;
+    
+    }
+    
+    .sm-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid white;
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 25px;
+        font-size: 1.3rem;
+        color: var(--main);
+        background-color: white;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .contact {
+        color: white;
+        background-image: url(../../../../public/img/contact.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 60rem;
+        background-size: cover;
+    }
+    .contact h2{
+        text-align: center;
+        font-size: 37px;
+        padding-top: 3rem;
+        padding-bottom: 5rem;
+    
+    }
+    
+    .contactGrp {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+        font-size: 20px;
+        padding-bottom: 10rem;
+        margin-inline: 1rem;
+    }
+    
+    .contact-social-media {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        /* border: 1px solid; */
+        width: 29rem;
+        padding: 2rem;
+        border-radius: 20px;
+        opacity: 0.89;
+        background-color: var(--main);
+    }
+    
+    .phone-contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 4.5rem;
+        /* align-items: center; */
+    
+    }
+    
+    .adress {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 5rem;
+        width: 20rem;
+        padding: 2rem;
+        border-radius: 20px;
+        background-color: var(--main);
+        opacity: 0.89;
+    }
+    
+    .csm-a {
+        display: flex;
+        text-decoration: none;
+        align-items: center;
+        color: white;
+        gap: 2rem;
+    
+    }
+    
+    .sm-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid white;
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 25px;
+        font-size: 1.3rem;
+        color: var(--main);
+        background-color: white;
+    }
+}
+
