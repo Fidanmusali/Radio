@@ -22,10 +22,7 @@
   .r1 {
     height: 25rem;
     border-radius: 15px;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    -ms-border-radius: 15px;
-    -o-border-radius: 15px;
+  
   }
   
   @media (max-width: 768px) {
