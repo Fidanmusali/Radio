@@ -28,10 +28,11 @@
 .radio-player {
     display: flex;
     justify-content: center;
-    gap: 10vw;
+    gap: 5vw;
     background: linear-gradient(180deg, #010101 0%, #141C1E 39.9%, #2A3C41 66.98%, #486873 100%);
     margin-top: 5rem;
     padding-bottom: 5rem;
+    padding-inline: 5rem;
 }
 
 .player1 {

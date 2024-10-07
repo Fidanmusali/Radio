@@ -2,6 +2,8 @@ import React, { useContext } from 'react'
 import './style.css'
 import p1 from "/public/img/player1.png"
 import p2 from "/public/img/player2.png"
+import w from "/public/img/w.jpg"
+import w1 from "/public/img/w1.jpg"
 import LanguageContext from '../../../../../assets/Language'
 
 const RadioPlayer = () => {
@@ -35,7 +37,7 @@ const lang4={
         <div className='radio-player'>
             <div className="player1">
                 <div className="part1">
-                    <img src={p1} alt="" />
+                    <img src={w} alt="" />
                     <p>{lang1[language]}</p>
                 </div>
                 <p>{lang2[language]}</p>
@@ -43,7 +45,7 @@ const lang4={
 
             <div className="player1">
                 <div className="part1">
-                    <img src={p2} alt="" />
+                    <img src={w1} alt="" />
                     <p>{lang3[language]}</p>
                 </div>
                 <p>{lang4[language]}</p>

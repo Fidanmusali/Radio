@@ -30,8 +30,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10rem;
+    gap: 7rem;
 }
+.s2 {
+  height: 10rem;
+  object-fit: cover;
+    
+}
+.patnerImg img{
+    width: 15rem;
+    border-radius: 15px;
+}
+
+
 
 @media (max-width: 768px) {
    
